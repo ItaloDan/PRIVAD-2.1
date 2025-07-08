@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(foto1.png);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#btn{ 
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+    padding: 10px 24px;
+    border-radius: 2cqmin;
+    border: none;
+    font-size: 13px;
+    box-shadow: 1px 1px 20px 0px black;
+    cursor: pointer;
+    transition-duration: 2s;
+    background-color: #ffffff;
+    border: 2px solid #851010;
+}
+
+#btn:hover{
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition-duration: 0.5s;
+    background-color: #851010;
+    box-shadow: 1px 1px 20px 0px rgb(255, 255, 255);
+    color: white;
+}
